@@ -4,12 +4,29 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "mysql2": "^3.15.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raisyakamilah48-cloud/project-uas-nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raisyakamilah48-cloud/project-uas-nodejs/issues"
+  },
+  "homepage": "https://github.com/raisyakamilah48-cloud/project-uas-nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
